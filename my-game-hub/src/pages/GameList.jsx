@@ -4,7 +4,7 @@ import "../styles/styles.css";
 const games = [
   { name: "Snake", image: "https://via.placeholder.com/200", link: "/games/snake" },
   { name: "Tetris", image: "https://via.placeholder.com/200", link: "/games/tetris" },
-  { name: "Flappy Bird", image: "https://via.placeholder.com/200", link: "/games/flappybird" },
+  { name: "Flappy Bird", image: "https://via.placeholder.com/200", link: "/games/flappyBird" },
 ];
 
 function GameList() {
