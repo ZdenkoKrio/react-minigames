@@ -5,6 +5,7 @@ import About from "./pages/About";
 import SnakeGame from "./games/snake/Snake";
 import FlappyBird from "./games/flappyBird/FlappyBird";
 import Navbar from "./components/Navbar";
+import Tetris from "./games/tetris/Tetris";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/games" element={<GameList />} />
         <Route path="/games/snake" element={<SnakeGame />} />
         <Route path="/games/flappybird" element={<FlappyBird />} />
+        <Route path="/games/tetris" element={<Tetris />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>
