@@ -5,6 +5,7 @@ const games = [
   { name: "Snake", image: "https://via.placeholder.com/200", link: "/games/snake" },
   { name: "Tetris", image: "https://via.placeholder.com/200", link: "/games/tetris" },
   { name: "Flappy Bird", image: "https://via.placeholder.com/200", link: "/games/flappyBird" },
+  { name: "Space Shooter", image: "https://via.placeholder.com/200", link: "/games/spaceShooter" },
 ];
 
 function GameList() {
