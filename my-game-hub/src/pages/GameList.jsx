@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import "../styles/styles.css";
 
 const games = [
-  { name: "Snake", image: "https://via.placeholder.com/200", link: "#" },
-  { name: "Tetris", image: "https://via.placeholder.com/200", link: "#" },
-  { name: "Flappy Bird", image: "https://via.placeholder.com/200", link: "#" },
+  { name: "Snake", image: "https://via.placeholder.com/200", link: "/games/snake" },
+  { name: "Tetris", image: "https://via.placeholder.com/200", link: "/games/tetris" },
+  { name: "Flappy Bird", image: "https://via.placeholder.com/200", link: "/games/flappybird" },
 ];
 
 function GameList() {
@@ -13,7 +14,7 @@ function GameList() {
         <div key={index} className="game-card">
           <img src={game.image} alt={game.name} />
           <h2>{game.name}</h2>
-          <a href={game.link} className="game-button">Play Now</a>
+          <Link to={game.link} className="game-button">Play Now</Link>
         </div>
       ))}
     </div>
